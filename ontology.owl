@@ -1,0 +1,4410 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:c5ff078b-f379-4d8f-903f-1ec3d21639f0#"
+     xml:base="urn:webprotege:ontology:c5ff078b-f379-4d8f-903f-1ec3d21639f0"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:c5ff078b-f379-4d8f-903f-1ec3d21639f0"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">implements</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_wrapper_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQmuhlj988OmKhyks4tWaq -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCQmuhlj988OmKhyks4tWaq">
+        <rdfs:label>generates</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">is_fix_to</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxuQ0E21zQlDbR3mFqnBQN -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RxuQ0E21zQlDbR3mFqnBQN">
+        <rdfs:label>is_variation_of</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R0IZiQNqESpgWtITxnZMEo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R0IZiQNqESpgWtITxnZMEo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgbE7gygq0t6TS6o5ufW1V"/>
+        <rdfs:label>IonWaterDistribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1S6Ou3rLbzFfWIkAeVXYw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1S6Ou3rLbzFfWIkAeVXYw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hPrTFfssdaOdLyidHK5eJ"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rcif26zqOEBcJXMHaZWEhp"/>
+        <rdfs:label>Protein-Ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1fexJ3F2PwOXNjXhFId9l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1fexJ3F2PwOXNjXhFId9l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RgMGdhbkuNuOooPCsMhz7E"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SelectChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R1wlTFH3TdWr9r3nIlK338 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R1wlTFH3TdWr9r3nIlK338">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:label>biobb_analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3G9AShIf78Swr5iI9URbX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3G9AShIf78Swr5iI9URbX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8ngAllrSqi5Tul9miMrhpQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MutateSideChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label>Analysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R3i95xUFuC5mzWeeX5CBna -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R3i95xUFuC5mzWeeX5CBna">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>Puckering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R45GYnJyLF1lU1dvZfb9Jy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R45GYnJyLF1lU1dvZfb9Jy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:label>Clustering</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4BdolAzVFd9hTHCEjvPwH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4BdolAzVFd9hTHCEjvPwH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp"/>
+        <rdfs:label>GODynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSpVAHxFWQWD7lD3t2ycaR"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDb00Y9mYLgNMiLP3ig4mEu"/>
+        <rdfs:label>NucleicAcidComplex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5d5xLx8664TyN5UbcDT6I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5d5xLx8664TyN5UbcDT6I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:label>SplitModels</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6AI8hlDRvdwOsXINJo97S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6AI8hlDRvdwOsXINJo97S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>NETCDF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6BEkUAtqVqCRXx5xhCY9N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6BEkUAtqVqCRXx5xhCY9N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSmC3L9kgORTz9CnQ74SzZ"/>
+        <rdfs:label>ChEMBL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6f4M1ENDpqWIHycw8zmHp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6f4M1ENDpqWIHycw8zmHp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>ff15ipq</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6wTuu7t830wbST0BaMhrn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6wTuu7t830wbST0BaMhrn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Pressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R702Y7zV3hc4Ba4oHAto5O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R702Y7zV3hc4Ba4oHAto5O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>FlexibilityAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R70emL4KdWEgkaAd2x7dp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R70emL4KdWEgkaAd2x7dp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e"/>
+        <rdfs:label>mmCIF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R712gj5lDlrVniA36Wrbvf2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R712gj5lDlrVniA36Wrbvf2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8a2o1vWZ1CB85K7nyhYnXj"/>
+        <rdfs:label>TrajectoryImaging</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74BNx0gjC26WduszCwL7fv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74BNx0gjC26WduszCwL7fv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSmC3L9kgORTz9CnQ74SzZ"/>
+        <rdfs:label>AlphaFoldDB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74PkSzQvJB6L7afxJCyFCB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74PkSzQvJB6L7afxJCyFCB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RL3O0EDX8jwPK2lIxHg3Ul"/>
+        <rdfs:label>Protein-DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74YrVWOIvbgTii4g9jmfXR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R74YrVWOIvbgTii4g9jmfXR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>CHARMM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R75gWearJw7yQcMFCsu0UZ8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R75gWearJw7yQcMFCsu0UZ8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8k4RPvoRbSuvXNfVuuv82F"/>
+        <rdfs:label>MMGBSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77Pt4EkCyTBU2wLgRskyWB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77Pt4EkCyTBU2wLgRskyWB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9"/>
+        <rdfs:label>CHARMM36</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7HjR8LiUfR63DD1MUdyjAD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7HjR8LiUfR63DD1MUdyjAD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUZeWVjZibU2KiBfAoWkV2"/>
+        <rdfs:label>AddBulkSolvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Iosu5TlcAbsTKgAv9V3qs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Iosu5TlcAbsTKgAv9V3qs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:label>biobb_structure_utils</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>Clashes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KDthZwGj5GtSHNTMeJdHP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KDthZwGj5GtSHNTMeJdHP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCXiy7H0iG0j6biU9RtAPZ4"/>
+        <rdfs:label>AddNME</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7KXSrpX9wLMg9RPGsPeK2C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7KXSrpX9wLMg9RPGsPeK2C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:label>biobb_pdb_tools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7LQuLhERchfvBYbI23kmvw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7LQuLhERchfvBYbI23kmvw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBq2RzCclj7HWVrYaeYVAk7"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrincipalComponentsAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PTy4CqYW6ETreFxC7fL8R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PTy4CqYW6ETreFxC7fL8R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9NoSu8SXIQ01Xh6BJ0d5Az"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AddTerminalCaps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Pr7bsFnAkjuTG8JlpEpoM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Pr7bsFnAkjuTG8JlpEpoM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+        <rdfs:label>LipidOrderParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7PsoaAntGtb829QF90YheQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7PsoaAntGtb829QF90YheQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Du9KT6MuV3ie6UaYsct6z"/>
+        <rdfs:label>AddIons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QLc7jaQbdxz4oeNRBYjWh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QLc7jaQbdxz4oeNRBYjWh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>NGL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QlAfsthBV1hl53lOB8X8D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QlAfsthBV1hl53lOB8X8D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DisulfideBonds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7SgR0yyXSiHUHoYSxl5Y4h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7SgR0yyXSiHUHoYSxl5Y4h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9yEqrmsQT7c8wxxSVi5oUu"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:label>RMSdperResidue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7St2K2Cc7AlSOg17kYSNIB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7St2K2Cc7AlSOg17kYSNIB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>Backbone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7StxiLOgNFNXSuzUPrstED -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7StxiLOgNFNXSuzUPrstED">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>NucleosomeWrapping</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Sya8PRg0K5AQkqVNpcUew -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Sya8PRg0K5AQkqVNpcUew">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9EDWYOEOQxllXcDQTGjH"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BerendsenThermostat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7TpOGQz1D5XqVaOkGekIqA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7TpOGQz1D5XqVaOkGekIqA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RColLSUIP41zZw0g4urnRuw"/>
+        <rdfs:label>Forces</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Operation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7VUPEXn2YDwCiI6Iq09HYD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7VUPEXn2YDwCiI6Iq09HYD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>Desmond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XA92400S7htkeUnLGVZPv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XA92400S7htkeUnLGVZPv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:label>CHARMM-GUI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XGZHItr33TH1IgtlVWOK8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7XGZHItr33TH1IgtlVWOK8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>Abalone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7ZBExQXuhrNHSRrHtvpHDH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7ZBExQXuhrNHSRrHtvpHDH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8jJLLhYCb8WqL54cmNqZLm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tool for preparing pdb-format files coming from other places (such as rcsb.org) to be compatible with LEaP.</dc:description>
+        <rdfs:label>pdb4amber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bcKM2m2vJMt9LyNGT109i -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bcKM2m2vJMt9LyNGT109i">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>PDB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>GlobalAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7cqbyttWSKUMnNzwKADoJB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7cqbyttWSKUMnNzwKADoJB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RhzJAiulWvLfSqHHwmw2k9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SmallMolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7di25tdiKmtP6Xbtj7msV0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7di25tdiKmtP6Xbtj7msV0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R4BdolAzVFd9hTHCEjvPwH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_godmd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7fFBohc2XmYWiGVZIegPtL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7fFBohc2XmYWiGVZIegPtL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7zjVDNkG21bxDVhSW4YxbP"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8oGzhcjQmctoon0oY3SYPX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8ClwX9abK5IkfLXx1FluJ5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8yyP00rQwqum72g2ckvKwk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBU5SEorxXqRWdoqPLW8YYx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RqPJQMlYeJvKHMWxecOboh"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_gromacs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hPrTFfssdaOdLyidHK5eJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hPrTFfssdaOdLyidHK5eJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Wwgl7n7CAjy90s8o3YhII"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDb00Y9mYLgNMiLP3ig4mEu"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProteinComplex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7iCTtHElk6QbWSC9GVSdWU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7iCTtHElk6QbWSC9GVSdWU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGKc04rZp6OFegc3qUwdl2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CoarseGrained</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>MembraneAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7kgNbDZ9Lf1Nyc1LK01su2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7kgNbDZ9Lf1Nyc1LK01su2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>Blender</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mPZz0f3De7YajhX3G02Z6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mPZz0f3De7YajhX3G02Z6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rcif26zqOEBcJXMHaZWEhp"/>
+        <rdfs:label>DNA-LIgand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7mhhRXi3DnRWJjdWXX7vto -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7mhhRXi3DnRWJjdWXX7vto">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>CAMPARI</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7oLqvFImFGoIMK0UhYeon7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7oLqvFImFGoIMK0UhYeon7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS"/>
+        <rdfs:label>43a2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7p3uKTuj1Vmdklb2TuKlgc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7p3uKTuj1Vmdklb2TuKlgc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RColLSUIP41zZw0g4urnRuw"/>
+        <rdfs:label>Energies</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pMkIPsGIUNOBvUgjADSqs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pMkIPsGIUNOBvUgjADSqs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEbq7Cxrvd8oaESHRM63GW"/>
+        <rdfs:label>Explicit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7pskwLzu6K3FfRvvS3fvBz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7pskwLzu6K3FfRvvS3fvBz">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SimulationSetup</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7q7rdXWYy3I8AkVhuLZ3k7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7q7rdXWYy3I8AkVhuLZ3k7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSmC3L9kgORTz9CnQ74SzZ"/>
+        <rdfs:label>NAKB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7r53lRV58RNMsY3MKNSh6y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7r53lRV58RNMsY3MKNSh6y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+        <rdfs:label>MembraneGeometry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7s90gKztmdc6clUuTsgwMI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7s90gKztmdc6clUuTsgwMI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Generic field dedicated to software version</dc:description>
+        <rdfs:label>SoftwareVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tNA4LX5h75kSgJRhTXS5e -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7tNA4LX5h75kSgJRhTXS5e">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2stYdCK9wZ9FOREWVlCgs"/>
+        <rdfs:label>NonNativeContactMap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7vppBM9iZ3uRcDG8zvbnzK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7vppBM9iZ3uRcDG8zvbnzK">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataFormat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xB7YRWvNhk0HjyQBOCeEx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xB7YRWvNhk0HjyQBOCeEx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS"/>
+        <rdfs:label>43a1</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xIEbi7hfwQMxKqhwUO2FL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7xIEbi7hfwQMxKqhwUO2FL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jJLLhYCb8WqL54cmNqZLm"/>
+        <rdfs:label>PrepareConstpHSimulationInput</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yDS2N5WraumPQkHekQdcH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yDS2N5WraumPQkHekQdcH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCnRGYP16NI8uSV8hUhPay"/>
+        <rdfs:label>BerendsenBarostat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zNyUvQIBXgD1lr06KbAJQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zNyUvQIBXgD1lr06KbAJQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3G9AShIf78Swr5iI9URbX"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4rQMiQitKL4h48DNgHcaa"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rtaty3iLpmuinom9f7cH8Z"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>RebuildSideChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zfeDDcJ9B1jyukTG1QhnT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zfeDDcJ9B1jyukTG1QhnT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCnRGYP16NI8uSV8hUhPay"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ParrinelloRahman</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zjVDNkG21bxDVhSW4YxbP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zjVDNkG21bxDVhSW4YxbP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Du9KT6MuV3ie6UaYsct6z"/>
+        <rdfs:label>AddLigand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB8x3oPvtfyeUL5zRkEwlJ0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>AddHydrogenAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81yzF0p6g1tqEUSSRR4gwk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81yzF0p6g1tqEUSSRR4gwk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:label>ProDy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82Fbe8ZsEKQHExtYXnlAhU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82Fbe8ZsEKQHExtYXnlAhU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:label>HydrophobicPatches</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82JIhGKJdTDOQbBJs1xjRb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82JIhGKJdTDOQbBJs1xjRb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>Stiffness</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R82szSnxUmw6rBL94G4nw5m -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R82szSnxUmw6rBL94G4nw5m">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+        <rdfs:label>RemoveHydrogenAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R837Kl3nAVvxuB8yCeWPWSv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R837Kl3nAVvxuB8yCeWPWSv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>3Dmol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83GoJyujGmNynmtTBVq4cC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R83GoJyujGmNynmtTBVq4cC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8k4RPvoRbSuvXNfVuuv82F"/>
+        <rdfs:label>MMPBSA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R83MLUVWFMdf3nyBnicNQ9V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R83MLUVWFMdf3nyBnicNQ9V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>ff14SB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8455RNpjJnGEjBSYBOdUob -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8455RNpjJnGEjBSYBOdUob">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>InterBPCorrelation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88pbAGeZ2AdfdVerpf2Vam -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88pbAGeZ2AdfdVerpf2Vam">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R82szSnxUmw6rBL94G4nw5m"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">program for adding hydrogens to a Protein Data Bank (PDB) molecular structure file.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reduce</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R89ZeXcIzcgLPrKRStypGnz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R89ZeXcIzcgLPrKRStypGnz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpzUuzEr3Civ7zgGDy9gFM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Cubic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8BSWpXE2oqgoqtLkMoBo0n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8BSWpXE2oqgoqtLkMoBo0n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RV5oQB3dlkbnipKsBtwkoT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_pmx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CXsTX695ubPxmxvaN10Mw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CXsTX695ubPxmxvaN10Mw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Zw65OEwf8955Z4w5UKC9D"/>
+        <rdfs:label>ConcertedMotions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ClwX9abK5IkfLXx1FluJ5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ClwX9abK5IkfLXx1FluJ5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">randomly replaces solvent molecules with monoatomic ions.</dc:description>
+        <rdfs:label>genion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8CvRPWbh0vrldLTgkxuwKh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8CvRPWbh0vrldLTgkxuwKh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS"/>
+        <rdfs:label>53a6</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8DcGNNYeylXcOepaGDLa8p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8DcGNNYeylXcOepaGDLa8p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MonteCarloDynamics(MC)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8E7SYkTRho6s2WSaTN5bUb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8E7SYkTRho6s2WSaTN5bUb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8gmoqTKakWdMsnAY7GlWhx"/>
+        <rdfs:label>Electrostatics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EfMXLkR6OAia8Zj9lk4kM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EfMXLkR6OAia8Zj9lk4kM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBWP4pTP7XzqXxQiiPltuV4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CreateStructureFromSequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8INGHz7LRSBnK3jwqbak5E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8INGHz7LRSBnK3jwqbak5E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>MDCRD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8KBHT1Dhyq348YfJzm9izl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8KBHT1Dhyq348YfJzm9izl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>ACEMD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Characteristics of the molecular system that can imply a setup decision</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StructureIssue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8RuoPPn6FlvedbRZ8XWDYY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8RuoPPn6FlvedbRZ8XWDYY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PolarClashes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:label>RemoveComponents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SJlZR6C3IDYsnMzFVuRkJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SJlZR6C3IDYsnMzFVuRkJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE"/>
+        <rdfs:label>HiddenCovalentBond</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SfNAXSHPwY2Vkbt8mdhzM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SfNAXSHPwY2Vkbt8mdhzM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:label>BFactor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8UGJqn3LlI9Fwnqo5xeZUF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8UGJqn3LlI9Fwnqo5xeZUF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RColLSUIP41zZw0g4urnRuw"/>
+        <rdfs:label>Coordinates</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8WaRppVcxzKZZ1HtBpRJ0M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8WaRppVcxzKZZ1HtBpRJ0M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+        <rdfs:label>AddPolarHAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ZmviJ3pYm0By4keGPtKuc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ZmviJ3pYm0By4keGPtKuc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcMA8hXpKsgwUEjy8kA1JY"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PressureCoupling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Zw65OEwf8955Z4w5UKC9D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8Zw65OEwf8955Z4w5UKC9D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>ProteinSpecficAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8a2o1vWZ1CB85K7nyhYnXj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8a2o1vWZ1CB85K7nyhYnXj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label>TrajectoryOperations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8agEKnu7ZZi5j5VJQGIZRi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8agEKnu7ZZi5j5VJQGIZRi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:label>SecondaryStructure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StructureBuilding</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8c2EoUV6pnYbWTxPzO0APX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8c2EoUV6pnYbWTxPzO0APX">
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DataType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8cE3reacTgvfGaNlhGxipv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8cE3reacTgvfGaNlhGxipv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSpVAHxFWQWD7lD3t2ycaR"/>
+        <rdfs:label>DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8cFqtg5k0GeNWGvAVEHpxd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8cFqtg5k0GeNWGvAVEHpxd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">program to create force fields for metal centers</dc:description>
+        <rdfs:label>MCPB.py</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8deLvSBxN34HU0ciqucDFJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8deLvSBxN34HU0ciqucDFJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>TrajectoryMetaAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8fF5obrgjHjmZJMmnmUa2R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8fF5obrgjHjmZJMmnmUa2R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBq2RzCclj7HWVrYaeYVAk7"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:label>CorrelationMatrix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8gmoqTKakWdMsnAY7GlWhx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8gmoqTKakWdMsnAY7GlWhx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>NonbondedInteractions</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8imzzwx7I28NszOZflRNCO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8imzzwx7I28NszOZflRNCO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label>FormatConversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jEjGDa5ZhmkpMRYlfyBnM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jEjGDa5ZhmkpMRYlfyBnM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>TNG</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jJLLhYCb8WqL54cmNqZLm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jJLLhYCb8WqL54cmNqZLm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PrepareSimulationInput</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8jKsdK5tewcSuX1wmekyc1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8jKsdK5tewcSuX1wmekyc1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcMA8hXpKsgwUEjy8kA1JY"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TemperatureCoupling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8k4RPvoRbSuvXNfVuuv82F -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8k4RPvoRbSuvXNfVuuv82F">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHr0fag3Movaq9jOERJwyW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgbE7gygq0t6TS6o5ufW1V"/>
+        <rdfs:label>BindingFreeEnergy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8l8e7Fgk4ZcURHWmTDc605 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8l8e7Fgk4ZcURHWmTDc605">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDUZeWVjZibU2KiBfAoWkV2"/>
+        <rdfs:label>TitrateSolvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lOlu3poMQ3gm1PBwTeJxW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lOlu3poMQ3gm1PBwTeJxW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>ff03</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8lijQS8PdV31ec34sBsrsE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8lijQS8PdV31ec34sBsrsE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSmC3L9kgORTz9CnQ74SzZ"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ProteinDataBank(PDB)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8nAiXvT9FqXOQ20eLrpN8N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8nAiXvT9FqXOQ20eLrpN8N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">alchemical free energy simulation analysis.</dc:description>
+        <rdfs:label>edgembar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ngAllrSqi5Tul9miMrhpQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ngAllrSqi5Tul9miMrhpQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGkGoVNmyRoksmv0IaPhqK"/>
+        <rdfs:label>MissingSideAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8oGzhcjQmctoon0oY3SYPX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8oGzhcjQmctoon0oY3SYPX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RqI6TkldwgmQRDtUKmZUhk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCQmuhlj988OmKhyks4tWaq"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCSpOKqren4zEAjFifKZYho"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BuildGROMACSTopology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8odKwk9fGLJCEgTH5DVwRB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8odKwk9fGLJCEgTH5DVwRB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8imzzwx7I28NszOZflRNCO"/>
+        <rdfs:label>TrajectoryFormatConversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ohsySXQhYHboM9zjoFjFI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ohsySXQhYHboM9zjoFjFI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>ff19SB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>GROMACS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rVGm98Q2rT4oBByufilFD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rVGm98Q2rT4oBByufilFD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>ff99</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8runpsDujczkZ1aX7CZ1HX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8runpsDujczkZ1aX7CZ1HX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Thermostat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8sduGA2HHzuntGpQMSaHDB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8sduGA2HHzuntGpQMSaHDB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zNyUvQIBXgD1lr06KbAJQ"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCYemhzYUnYI9qkS2JcNEKu"/>
+        <rdfs:label>StructureEditing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tK2r0ZwdnXHtEPIYjT7J4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tK2r0ZwdnXHtEPIYjT7J4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9u6Bb4mNUCHcU0MjzfLEzM"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CisPeptide</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wIpZHFR16zweknCEwmnfB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wIpZHFR16zweknCEwmnfB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">QuantumMechanics(QM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8we8SjiQiJjmL8Ef56R32C -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8we8SjiQiJjmL8Ef56R32C">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7St2K2Cc7AlSOg17kYSNIB"/>
+        <rdfs:label>WrongBackboneChiralConfig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8yyP00rQwqum72g2ckvKwk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8yyP00rQwqum72g2ckvKwk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">converts generic structure format to .gro, .g96 or .pdb.</dc:description>
+        <rdfs:label>editconf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91lJzzjVYP5dNhjcub04q9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R91lJzzjVYP5dNhjcub04q9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rai1OUG5G0PKqs1JnvJpio"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9a1MKBW15qqZl1mM8Hp4fT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC4rQMiQitKL4h48DNgHcaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCYemhzYUnYI9qkS2JcNEKu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ComparativeModeling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R92ggrHg2WfUuOokAqpfMvf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R92ggrHg2WfUuOokAqpfMvf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>HelicalParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R931DjCx7CyZfdMSXCEemC1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R931DjCx7CyZfdMSXCEemC1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>TimeStep</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R95IhhZOT5VWyAdw0pTFEuK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R95IhhZOT5VWyAdw0pTFEuK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ApolarClashes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:label>BioBB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R96X3QhbHWfKqoIqsQFewg3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R96X3QhbHWfKqoIqsQFewg3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rab7lGgppCANfHlSmFGuox"/>
+        <rdfs:label>RenumberResidue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R99em3vOd9PdzhZ0x9lUssT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R99em3vOd9PdzhZ0x9lUssT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7St2K2Cc7AlSOg17kYSNIB"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BackboneGap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9BgMFsLavJljxq0RHA7lzd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9BgMFsLavJljxq0RHA7lzd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>MDAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Du9KT6MuV3ie6UaYsct6z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Du9KT6MuV3ie6UaYsct6z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:label>AddComponent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ELCUpRPSac6eHvDOlvX3q -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ELCUpRPSac6eHvDOlvX3q">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolecularMechanics (MM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE"/>
+        <rdfs:label>HelperSoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05"/>
+        <rdfs:label>GROMOSForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9I6gMkmRrJU49EsagYZ2Tq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9I6gMkmRrJU49EsagYZ2Tq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SmallMolecule</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9K0MSZD3DH5W0wmoJ4BnYB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9K0MSZD3DH5W0wmoJ4BnYB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Temperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9MFcVlO0KMj77m88v9yivQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9MFcVlO0KMj77m88v9yivQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label>Ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NX0gt3xSY2pmgTZsk6mlC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NX0gt3xSY2pmgTZsk6mlC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCnQb7Ik5Vc5ITy1DsSzDNS"/>
+        <rdfs:label>OPLS-AA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RYr5CJtfpN5nxlTfaXfklL"/>
+        <rdfs:label>ClassicalForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9NoSu8SXIQ01Xh6BJ0d5Az -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9NoSu8SXIQ01Xh6BJ0d5Az">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7St2K2Cc7AlSOg17kYSNIB"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MissingTerminus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RPA6fOJFHmLp02PBq5w5O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9RPA6fOJFHmLp02PBq5w5O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>UCSFChimera</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RdBZeUBesg8iWGNqh6lH5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9RdBZeUBesg8iWGNqh6lH5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label>SolventAccesibleSurface</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Sug86oPdMO81D91gyc7e5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Sug86oPdMO81D91gyc7e5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7xIEbi7hfwQMxKqhwUO2FL"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tool to extract information about the parameters defined in a parameter-tolpogy file.</dc:description>
+        <rdfs:label>parmed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9TSzQlbPXzCiHHKgjYRYZV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9TSzQlbPXzCiHHKgjYRYZV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBi6xyA5u1cnMAyshsDDJLj"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>RemoveWater</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Wwgl7n7CAjy90s8o3YhII -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Wwgl7n7CAjy90s8o3YhII">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label>Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ZhDaTVGxDWLLtWJ5TO3QD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9ZhDaTVGxDWLLtWJ5TO3QD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Zw65OEwf8955Z4w5UKC9D"/>
+        <rdfs:label>VariantsStability</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9a1MKBW15qqZl1mM8Hp4fT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9a1MKBW15qqZl1mM8Hp4fT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8ngAllrSqi5Tul9miMrhpQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CompleteMissingSideChainAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9cl5Chq3kyQekYc84QcAXq -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9cl5Chq3kyQekYc84QcAXq">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label>LDDT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9crfbboXBYqBINx4uyXgh0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9crfbboXBYqBINx4uyXgh0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC6nKIViwl65Ipp8I6P74tI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>nab</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9dWCkeukMAs56PETMAPsRU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9dWCkeukMAs56PETMAPsRU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDf5c3lzhzI9gH1oPS0rrK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SelectModel</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9e8N3IDvz9E2jAhPESbgjO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9e8N3IDvz9E2jAhPESbgjO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e"/>
+        <rdfs:label>Mol2</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9e9RzwofI4EmkzfmdGQRGt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9e9RzwofI4EmkzfmdGQRGt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8imzzwx7I28NszOZflRNCO"/>
+        <rdfs:label>StructureFormatConversion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9gTJ4eP5reYa8u6ma5s7H8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9gTJ4eP5reYa8u6ma5s7H8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNJetWyrJCkqiwr8FXRbfh"/>
+        <rdfs:label>ProtonateExplicit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iNTBs5i3AMNUaTOD9TCxA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9iNTBs5i3AMNUaTOD9TCxA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9yEqrmsQT7c8wxxSVi5oUu"/>
+        <rdfs:label>GlobalRMSd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9jJY20OoDGFfUGkNIdtw6d -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9jJY20OoDGFfUGkNIdtw6d">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r53lRV58RNMsY3MKNSh6y"/>
+        <rdfs:label>MembraneWidth</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9l4PVpfoLd7LQtTaXqccKp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9l4PVpfoLd7LQtTaXqccKp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNOYkvV6bg6vQPE6kMUP7S"/>
+        <rdfs:label>Entropy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9lxXuRIvTrn9I6vPkOP7Nr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9lxXuRIvTrn9I6vPkOP7Nr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R702Y7zV3hc4Ba4oHAto5O"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_flexserv</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9npQ2pHKAtbEZ2ks1JgCUB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9npQ2pHKAtbEZ2ks1JgCUB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8EfMXLkR6OAia8Zj9lk4kM"/>
+        <rdfs:label>CreateStructureFromProteinSequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oD4FaxMRIBX354uuIPmTE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9oD4FaxMRIBX354uuIPmTE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(the gromacs preprocessor) reads a molecular topology file, checks the validity of the file, expands the topology from a molecular description to an atomic description.</dc:description>
+        <rdfs:label>grompp</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oKikgL4KgMntujrMk1aCZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9oKikgL4KgMntujrMk1aCZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RxuQ0E21zQlDbR3mFqnBQN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8lOlu3poMQ3gm1PBwTeJxW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ff03ua</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rmWG44kKWJgLkJBebhJGf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9rmWG44kKWJgLkJBebhJGf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:label>CNSXPLOR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9t3b7DMJoyLY4vEhYYX1Kg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9t3b7DMJoyLY4vEhYYX1Kg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label>Parameterization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9u6Bb4mNUCHcU0MjzfLEzM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9u6Bb4mNUCHcU0MjzfLEzM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7St2K2Cc7AlSOg17kYSNIB"/>
+        <rdfs:label>PeptideDHIssues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vUzvXqeEXeskEIoMI1Qrd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vUzvXqeEXeskEIoMI1Qrd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGKc04rZp6OFegc3qUwdl2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AllAtom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vXNnIH2qo0YTBvNYAO5b8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vXNnIH2qo0YTBvNYAO5b8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9"/>
+        <rdfs:label>CHARMM36m</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9vslpyXQ08zH6nR0jllf6u -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9vslpyXQ08zH6nR0jllf6u">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCzpM36KXJFmDaKohhNriLh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PbcAlongY</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xKEDe4HXwNV5Ltkq77rmj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9xKEDe4HXwNV5Ltkq77rmj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB2fwAr4OUD0NxkRGcn2A1l"/>
+        <rdfs:label>ChargeDistribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9yEqrmsQT7c8wxxSVi5oUu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9yEqrmsQT7c8wxxSVi5oUu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDC3vlFCjoXppkx4vhxbIgu"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label>RMSd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0Aq6PNijxATnrSnWt7BTT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0Aq6PNijxATnrSnWt7BTT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">algorithm used to advance the simulation through time</dc:description>
+        <rdfs:label>Integrator</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0RA44QCEn5aE9a5ijYEn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0RA44QCEn5aE9a5ijYEn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>DNABimodality</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB15ElN9whL0OToti1dJmx5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB15ElN9whL0OToti1dJmx5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8deLvSBxN34HU0ciqucDFJ"/>
+        <rdfs:label>TrajectoryComparison</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2fwAr4OUD0NxkRGcn2A1l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2fwAr4OUD0NxkRGcn2A1l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ForceFieldParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB5ftL3Ftach9TiL2kgGbyX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB5ftL3Ftach9TiL2kgGbyX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Du9KT6MuV3ie6UaYsct6z"/>
+        <rdfs:label>AddChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6Xlg46P85Kf8NfU2lp51n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6Xlg46P85Kf8NfU2lp51n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label>TMScore</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8x3oPvtfyeUL5zRkEwlJ0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8x3oPvtfyeUL5zRkEwlJ0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>HydrogenAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9c4ruya6s74UCAwHRdrVD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9c4ruya6s74UCAwHRdrVD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKsdK5tewcSuX1wmekyc1"/>
+        <rdfs:label>VariableTemperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9rAqP3bcM0pl9vyYt7wTX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9rAqP3bcM0pl9vyYt7wTX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PeriodicBoundaryCondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBD2AWJ8IRa464Noy1ZBOdj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBD2AWJ8IRa464Noy1ZBOdj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:label>RDKit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBEtNLWyTkDtjDxQR3rWRqD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBEtNLWyTkDtjDxQR3rWRqD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB"/>
+        <rdfs:label>LigandTopology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBFUI6yTDlFzFVZaIOcKAtY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBFUI6yTDlFzFVZaIOcKAtY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9"/>
+        <rdfs:label>CHARMM27</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHYggkYBP7JCquTqrZaD5n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHYggkYBP7JCquTqrZaD5n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label>ProtonateLigand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBINb2Ito4dmNHGgDZro0Hw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBINb2Ito4dmNHGgDZro0Hw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Molstar</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pskwLzu6K3FfRvvS3fvBz"/>
+        <rdfs:label>SimulationParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBL03FyTIA2GSU9U6yvWE0H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBL03FyTIA2GSU9U6yvWE0H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8gmoqTKakWdMsnAY7GlWhx"/>
+        <rdfs:label>VanderWaalsCutoff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBLb6NS2mWq7Se1ddUebXtL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBLb6NS2mWq7Se1ddUebXtL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tool to generate membrane systems, with or without protein, by orienting input proteins with Memembed and using Packmol as the packing engine.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">packmol-memgen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBMlMIxY8UwIqSzzYeKqtFb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBMlMIxY8UwIqSzzYeKqtFb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Wwgl7n7CAjy90s8o3YhII"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">IntrinsicallyDisorderedProtein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBO4tVY7ZVn6iYVHrpnYDwu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBO4tVY7ZVn6iYVHrpnYDwu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ELCUpRPSac6eHvDOlvX3q"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MolecularDynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOUEEV0dtAxcPCwKo0J2kk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBOUEEV0dtAxcPCwKo0J2kk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCzpM36KXJFmDaKohhNriLh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PbcAlongX</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBPgbkxCznBVhHvoXwA1yLv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBPgbkxCznBVhHvoXwA1yLv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGKc04rZp6OFegc3qUwdl2"/>
+        <rdfs:label>Mesoscopic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBQHEphjsUo9FUb7VAbaM5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBQHEphjsUo9FUb7VAbaM5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9"/>
+        <rdfs:label>CHARMM22</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBR3F7DkQFKVnQpnVihR1Cs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBR3F7DkQFKVnQpnVihR1Cs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBO4tVY7ZVn6iYVHrpnYDwu"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Classic/Equilibrium</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRBdJkFCuGX5zvW998c0xP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBRBdJkFCuGX5zvW998c0xP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+        <rdfs:label>LipidDistribution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBRCv566roSwvJfrcd9yK9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBRCv566roSwvJfrcd9yK9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a Python wrapper for CPPTRAJ.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PYTRAJ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBU5SEorxXqRWdoqPLW8YYx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBU5SEorxXqRWdoqPLW8YYx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDUZeWVjZibU2KiBfAoWkV2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">can do one of two things: 1) generate a box of solvent, 2) solvate a solute configuration e.g. a protein, in a bath of solvent molecules.</dc:description>
+        <rdfs:label>solvate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVFM5jUOfT9EOlSBjpXOpo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVFM5jUOfT9EOlSBjpXOpo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7PTy4CqYW6ETreFxC7fL8R"/>
+        <rdfs:label>NTermCap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBVHFmsIWgPUSvekVkbckMr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBVHFmsIWgPUSvekVkbckMr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R88pbAGeZ2AdfdVerpf2Vam"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBi49DqlSrl3JrrssMamgQK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RP2iY6ziSZb1R0q9HKUEju"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_chemistry</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBWP4pTP7XzqXxQiiPltuV4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBWP4pTP7XzqXxQiiPltuV4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>NoStructureAvailable</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBWp44xZaeiDOLxHw3ozOjS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBWp44xZaeiDOLxHw3ozOjS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB2fwAr4OUD0NxkRGcn2A1l"/>
+        <rdfs:label>ForceFieldName</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBX0x8cZWvkJ55NUws1ldoK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBX0x8cZWvkJ55NUws1ldoK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+        <rdfs:label>LipidDensity</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBYvdbdP7pF7Yo0eigdiSor -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBYvdbdP7pF7Yo0eigdiSor">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label>Carbohydrate</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBZsI7PN2Jehwz53hzTcsOS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBZsI7PN2Jehwz53hzTcsOS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>VMD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBa0fmddCM4KUO3V801Mq92 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBa0fmddCM4KUO3V801Mq92">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>Jmol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBaxrgLUxNvCK4cN5HYJ4m0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBaxrgLUxNvCK4cN5HYJ4m0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>XTC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBchhjiHahVGPasSzEcKygc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBchhjiHahVGPasSzEcKygc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rab7lGgppCANfHlSmFGuox"/>
+        <rdfs:label>RenameResidue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE"/>
+        <rdfs:label>AnalysisSoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05"/>
+        <rdfs:label>CHARMMForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhGtVZytY9iSCObDpxubWx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBhGtVZytY9iSCObDpxubWx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>AmideOrientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBhMA3UB2I5QYijybaR9zR4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBhMA3UB2I5QYijybaR9zR4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RL3O0EDX8jwPK2lIxHg3Ul"/>
+        <rdfs:label>Protein-RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBi0w9ifMF9jQsrP7scQw83 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBi0w9ifMF9jQsrP7scQw83">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBO4tVY7ZVn6iYVHrpnYDwu"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EnhancedSampling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBi49DqlSrl3JrrssMamgQK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBi49DqlSrl3JrrssMamgQK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9e9RzwofI4EmkzfmdGQRGt"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>OpenBABEL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBi6xyA5u1cnMAyshsDDJLj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBi6xyA5u1cnMAyshsDDJLj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9I6gMkmRrJU49EsagYZ2Tq"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC9GcHxWSj6PsXDluO5RnmW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RhzJAiulWvLfSqHHwmw2k9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Water</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBk4OCqFe8JxcqCtgK0xd6j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBk4OCqFe8JxcqCtgK0xd6j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>OpenMM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBmZzdAnYJPGFmacuNWPesd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBmZzdAnYJPGFmacuNWPesd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>AMBER</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBnOzNnw6Vw7Qwl21QGJGAU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBnOzNnw6Vw7Qwl21QGJGAU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e"/>
+        <rdfs:label>prmtop</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBoxg7ejRr2Amh3un9m92e5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBoxg7ejRr2Amh3un9m92e5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCSpVAHxFWQWD7lD3t2ycaR"/>
+        <rdfs:label>RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBp5k2yY9IX81eb84WkY5a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBp5k2yY9IX81eb84WkY5a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rcif26zqOEBcJXMHaZWEhp"/>
+        <rdfs:label>RNA-Ligand</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7vppBM9iZ3uRcDG8zvbnzK"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StructureFormat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBq2RzCclj7HWVrYaeYVAk7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBq2RzCclj7HWVrYaeYVAk7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R702Y7zV3hc4Ba4oHAto5O"/>
+        <rdfs:label>EssentialDynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBqdZB7UndY5RGnVCy9AiLU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBqdZB7UndY5RGnVCy9AiLU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>RandomSeed</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBxtGntU8bdqV52utf2HErM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBxtGntU8bdqV52utf2HErM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">program to develop force fields for small organic molecules (e.g. drugs, modified amino acids) using a version of the general Amber force field (GAFF). These can be used directly in LEaP, or can serve as a starting point for further parameter development.</dc:description>
+        <rdfs:label>antechamber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBzDMvj90sJA5BY36970XSg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBzDMvj90sJA5BY36970XSg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB"/>
+        <rdfs:label>AMBERTopology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1TgKUgPleO3unPPZHtZB8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1TgKUgPleO3unPPZHtZB8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tool for the generation of bonded force field parameters for any molecule by fitting to quantum data.</dc:description>
+        <rdfs:label>mdgx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC1Y5cN1MPMeDU0TEE4vraJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC1Y5cN1MPMeDU0TEE4vraJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PyMOL</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3aT3e2bteIt3cP1PRd9bb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC3aT3e2bteIt3cP1PRd9bb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RhzJAiulWvLfSqHHwmw2k9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>RemoveLigands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4rQMiQitKL4h48DNgHcaa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4rQMiQitKL4h48DNgHcaa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8we8SjiQiJjmL8Ef56R32C"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rtaty3iLpmuinom9f7cH8Z"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>FixChiralConfiguration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6I2gtCDDaJ26U9hCvNgIa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6I2gtCDDaJ26U9hCvNgIa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj"/>
+        <rdfs:label>DNA-DNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6kMr4DQY5mpLeOUc0h0Mw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6kMr4DQY5mpLeOUc0h0Mw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Restraints</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC6nKIViwl65Ipp8I6P74tI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC6nKIViwl65Ipp8I6P74tI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8EfMXLkR6OAia8Zj9lk4kM"/>
+        <rdfs:label>CreateStrucureFromNASequence</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC75hCEDq0ukWLEscJmTpeP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC75hCEDq0ukWLEscJmTpeP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgbE7gygq0t6TS6o5ufW1V"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LigandCavityCharacterization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC935odN8jLViZ8WIOxEQZ9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC935odN8jLViZ8WIOxEQZ9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label>NABackboneFlexibility</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC9GcHxWSj6PsXDluO5RnmW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC9GcHxWSj6PsXDluO5RnmW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label>Solvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCA26wRtRDUQnMikfu49IU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCA26wRtRDUQnMikfu49IU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>NAMD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBxaFGvmGaA7205uE3UidM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBxaFGvmGaA7205uE3UidM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8Zw65OEwf8955Z4w5UKC9D"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PocketAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SimulationType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCrCY3SriuqV4OTTmGpfty -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCrCY3SriuqV4OTTmGpfty">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ELCUpRPSac6eHvDOlvX3q"/>
+        <rdfs:label>BrownianDynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCCvuU5YmlFZmeG0Xe26H9O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCCvuU5YmlFZmeG0Xe26H9O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r53lRV58RNMsY3MKNSh6y"/>
+        <rdfs:label>PoreDimension</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCDX67IaBktnEhMy3Sm5r7L -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCDX67IaBktnEhMy3Sm5r7L">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCnRGYP16NI8uSV8hUhPay"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">StochasticCellRescaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFIjFykRH57Q6xSC0TtN6D -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCFIjFykRH57Q6xSC0TtN6D">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rab7lGgppCANfHlSmFGuox"/>
+        <rdfs:label>RenameChain</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHdOGomUZMcW6KGvwR2X99 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHdOGomUZMcW6KGvwR2X99">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBgyIaRnBtk7409VNHD3kG9"/>
+        <rdfs:label>CHARMM19</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHr0fag3Movaq9jOERJwyW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHr0fag3Movaq9jOERJwyW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNOYkvV6bg6vQPE6kMUP7S"/>
+        <rdfs:label>InteractionEnergy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJY17dq0r6svPLlD9BxSO2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJY17dq0r6svPLlD9BxSO2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9ELCUpRPSac6eHvDOlvX3q"/>
+        <rdfs:label>LangevinDynamics</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05"/>
+        <rdfs:label>AMBERForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCM9dLiz6RmCoEqbA2ap5zr -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCM9dLiz6RmCoEqbA2ap5zr">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>DCD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMovctcszkwYXoLe3EmvpH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMovctcszkwYXoLe3EmvpH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_dna</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCMxo0BMss8AeO10Ctp5lzR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCMxo0BMss8AeO10Ctp5lzR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:label>Concoord</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRQIzpkViAnFnZb2xAz517 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCRQIzpkViAnFnZb2xAz517">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Binpos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRZWgy80JQxbwWiQOWN61h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCRZWgy80JQxbwWiQOWN61h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+        <rdfs:label>LipidContactAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label>CompleteMissingAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSpOKqren4zEAjFifKZYho -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSpOKqren4zEAjFifKZYho">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB"/>
+        <rdfs:label>GROMACSTopology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCSpVAHxFWQWD7lD3t2ycaR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCSpVAHxFWQWD7lD3t2ycaR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NucleicAcid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE"/>
+        <rdfs:label>ModellingSoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCVePaM7Ia1HpsbCGGj601f -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCVePaM7Ia1HpsbCGGj601f">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:label>Packmol</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWHL1w4KQRbElZ4CR3IxeX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWHL1w4KQRbElZ4CR3IxeX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>XYZ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCWnCzcaP1P9jEzAjQb88w2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCWnCzcaP1P9jEzAjQb88w2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:label>YASARA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXhdRuYsF1ITu7rQN5WmSp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXhdRuYsF1ITu7rQN5WmSp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_mem</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXiy7H0iG0j6biU9RtAPZ4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCXiy7H0iG0j6biU9RtAPZ4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7PTy4CqYW6ETreFxC7fL8R"/>
+        <rdfs:label>CTermCap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYID7W7dxqvQJBNvvuAu34 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCYID7W7dxqvQJBNvvuAu34">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RColLSUIP41zZw0g4urnRuw"/>
+        <rdfs:label>Velocities</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYemhzYUnYI9qkS2JcNEKu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCYemhzYUnYI9qkS2JcNEKu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R99em3vOd9PdzhZ0x9lUssT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CompleteBackbone</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCYxgJ76HDgjOJGPQaIEi0v -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCYxgJ76HDgjOJGPQaIEi0v">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8l8e7Fgk4ZcURHWmTDc605"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RWHnrAlT7AxuYeIA1RcsBJ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_cmip</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCaS5uoHHXblXbh5Q5auzPk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCaS5uoHHXblXbh5Q5auzPk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9EDWYOEOQxllXcDQTGjH"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AndersenThermostat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbYYqufu9lwSTc816oWBS1 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCbYYqufu9lwSTc816oWBS1">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>ConvergenceAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbaqf215Pmaci9Q6BJWSR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCbaqf215Pmaci9Q6BJWSR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8gmoqTKakWdMsnAY7GlWhx"/>
+        <rdfs:label>ElectrostaticsCutoff</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgUt5VyTUUBJEv1hT9rVTG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgUt5VyTUUBJEv1hT9rVTG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">umbrella sampling free energy analysis.</dc:description>
+        <rdfs:label>ndfes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCgVMWgX7JgPNCQVRLugHCp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCgVMWgX7JgPNCQVRLugHCp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA"/>
+        <rdfs:label>CompleteMissingBackboneAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChaPZQT2IFEdustrzEp5p2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RChaPZQT2IFEdustrzEp5p2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AlternativeLocations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RChuhbedYpK2x1HmyAIOhU5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RChuhbedYpK2x1HmyAIOhU5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7HjR8LiUfR63DD1MUdyjAD"/>
+        <rdfs:label>AddSolventPBC</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiWvMyhA7U5ut43SqpEBaa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCiWvMyhA7U5ut43SqpEBaa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCoRrLDRKcUsme3GzMKezp"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Hybrid-QM/MM</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SystemType</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCk8n9lQPHFPZMDfrb8EzP2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCk8n9lQPHFPZMDfrb8EzP2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS"/>
+        <rdfs:label>45a3</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7vppBM9iZ3uRcDG8zvbnzK"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">TrajectoryFormat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnQb7Ik5Vc5ITy1DsSzDNS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCnQb7Ik5Vc5ITy1DsSzDNS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05"/>
+        <rdfs:label>OPLSForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnRGYP16NI8uSV8hUhPay -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCnRGYP16NI8uSV8hUhPay">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ZmviJ3pYm0By4keGPtKuc"/>
+        <rdfs:label>FixedPressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCobuXsPOxfLBxrvaxxHgbC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCobuXsPOxfLBxrvaxxHgbC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCqyCQN4wOgvwqv8JRaf1lY"/>
+        <rdfs:label>MMFF94</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCocQJvRDCbY0LOtWrptOQD -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCocQJvRDCbY0LOtWrptOQD">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RxuQ0E21zQlDbR3mFqnBQN"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8rVGm98Q2rT4oBByufilFD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>ff99bsc0</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RColLSUIP41zZw0g4urnRuw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RColLSUIP41zZw0g4urnRuw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8c2EoUV6pnYbWTxPzO0APX"/>
+        <rdfs:label>TrajectoryData</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCpzUuzEr3Civ7zgGDy9gFM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCpzUuzEr3Civ7zgGDy9gFM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaZ5RhpLAkcUqY6SC6pY3H"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PeriodicBoundary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqSvj6x4xeLzUAfn43vcg6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqSvj6x4xeLzUAfn43vcg6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmZzdAnYJPGFmacuNWPesd"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Is a version of sander that is optimized for speed and for parallel scaling; the pmemd.cuda variant runs on GPUs. The name stands for “Particle Mesh Ewald Molecular Dynamics,” but this code can also carry out generalized Born simulations.</dc:description>
+        <rdfs:label>pmemd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCqyCQN4wOgvwqv8JRaf1lY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCqyCQN4wOgvwqv8JRaf1lY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05"/>
+        <rdfs:label>MerckMolecularForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LocalAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCriPQvRg4KDczCjL6ZAqJu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCriPQvRg4KDczCjL6ZAqJu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaZ5RhpLAkcUqY6SC6pY3H"/>
+        <rdfs:label>HardWall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCwQNX3anxJNb0w4uBOaql7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCwQNX3anxJNb0w4uBOaql7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCzpM36KXJFmDaKohhNriLh"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PbcAlongZ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE"/>
+        <rdfs:label>VIsualizationSoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyKtQVU0Fxq07mzLUIEvmm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyKtQVU0Fxq07mzLUIEvmm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Barostat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzpM36KXJFmDaKohhNriLh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzpM36KXJFmDaKohhNriLh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB9rAqP3bcM0pl9vyYt7wTX"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periodic boundary conditions applied along select axes</dc:description>
+        <rdfs:label>PerAxisPbc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCzs9tSKj57S1Iq9J7qO3Te -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCzs9tSKj57S1Iq9J7qO3Te">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7PsoaAntGtb829QF90YheQ"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9npQ2pHKAtbEZ2ks1JgCUB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDGyUa0Zs8TIOgLjJHbIFNu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDUZeWVjZibU2KiBfAoWkV2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">program to create a new system in Amber, or to modify existing systems. It is available as the command-line program tleap or the GUI xleap.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LEaP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2stYdCK9wZ9FOREWVlCgs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2stYdCK9wZ9FOREWVlCgs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDC3vlFCjoXppkx4vhxbIgu"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ContactMap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD50NeY2kXVPvkgOZLv7ue -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD50NeY2kXVPvkgOZLv7ue">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e"/>
+        <rdfs:label>SDF</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBNrrTkA9wTN5VEJld9QvT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDBNrrTkA9wTN5VEJld9QvT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpzUuzEr3Civ7zgGDy9gFM"/>
+        <rdfs:label>Triclinic</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBsnBzna5C6PFbIAH3ftZM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDBsnBzna5C6PFbIAH3ftZM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:label>biobb_flexdyn</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDC3vlFCjoXppkx4vhxbIgu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDC3vlFCjoXppkx4vhxbIgu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>GeometricAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEC7jQn3CsZ3d2ygSTh1z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDEC7jQn3CsZ3d2ygSTh1z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS"/>
+        <rdfs:label>53a5</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDEbq7Cxrvd8oaESHRM63GW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDEbq7Cxrvd8oaESHRM63GW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RChaPZQT2IFEdustrzEp5p2"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>SelectAltLocation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDGCFWjd30n6oRVjTSbUe9A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDGCFWjd30n6oRVjTSbUe9A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8RuoPPn6FlvedbRZ8XWDYY"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBhGtVZytY9iSCObDpxubWx"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>FixAmideOrientation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDGyUa0Zs8TIOgLjJHbIFNu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDGyUa0Zs8TIOgLjJHbIFNu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RqI6TkldwgmQRDtUKmZUhk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCQmuhlj988OmKhyks4tWaq"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBzDMvj90sJA5BY36970XSg"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>BuildAMBERTopology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHGmGi4FL3K0bxWJlv8NKa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDHGmGi4FL3K0bxWJlv8NKa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R3G9AShIf78Swr5iI9URbX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9a1MKBW15qqZl1mM8Hp4fT"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RC4rQMiQitKL4h48DNgHcaa"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDGCFWjd30n6oRVjTSbUe9A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDK6wPuKsVa1KJkM7mHk6cE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_model</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDIT1eqjqpGzDNpXnyV07KJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDIT1eqjqpGzDNpXnyV07KJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>LAMMPS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDK6wPuKsVa1KJkM7mHk6cE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDK6wPuKsVa1KJkM7mHk6cE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R91lJzzjVYP5dNhjcub04q9"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Modeller</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDKrtTwtgWnZqyeMvmnUb7u -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDKrtTwtgWnZqyeMvmnUb7u">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R5NsHEV0zZC6AHQ2czsHwj"/>
+        <rdfs:label>DNA-RNA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDOLYv2W2gs203CslDnnxXm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDOLYv2W2gs203CslDnnxXm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RNJetWyrJCkqiwr8FXRbfh"/>
+        <rdfs:label>ProtonateAutopH</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pskwLzu6K3FfRvvS3fvBz"/>
+        <rdfs:label>Topology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSmC3L9kgORTz9CnQ74SzZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSmC3L9kgORTz9CnQ74SzZ">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SystemSource</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTqm2edHzjwDbZJyPSTxLV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDTqm2edHzjwDbZJyPSTxLV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBpfbpdnV2MT3SUp1fwJd0e"/>
+        <rdfs:label>GRO</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUZeWVjZibU2KiBfAoWkV2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUZeWVjZibU2KiBfAoWkV2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Du9KT6MuV3ie6UaYsct6z"/>
+        <rdfs:label>AddSolvent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDUZhlhHcYEtXZKhXsyd4oX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDUZhlhHcYEtXZKhXsyd4oX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>ff99SB</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDV1M795wx9rBJGRsJ34ALJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDV1M795wx9rBJGRsJ34ALJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semiempirical, DFTB, and ab initio quantum chemistry codes, for stand-alone calculations or in QM/MM</dc:description>
+        <rdfs:label>Quick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDWCD8QFlhVWOQ1f3iMBYAj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDWCD8QFlhVWOQ1f3iMBYAj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBKXaOLssQRCknHaIzkTUOm"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SolventParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDaxfmhG33SHrNJadlg5rYn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDaxfmhG33SHrNJadlg5rYn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RgbE7gygq0t6TS6o5ufW1V"/>
+        <rdfs:label>ResidenceTimes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDb00Y9mYLgNMiLP3ig4mEu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDb00Y9mYLgNMiLP3ig4mEu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Complex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDcXKBp0jWsEst4BKKmEtfx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDcXKBp0jWsEst4BKKmEtfx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SevereClashes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdelZXjmNbm2FBbMRr56h9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdelZXjmNbm2FBbMRr56h9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8ZmviJ3pYm0By4keGPtKuc"/>
+        <rdfs:label>VariablePressure</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDdkUZyzoHI0NBN3aRMP1UV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDdkUZyzoHI0NBN3aRMP1UV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8c2EoUV6pnYbWTxPzO0APX"/>
+        <rdfs:label>ProvenanceData</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDeFNyWseuwfgIbTJDzenUB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDeFNyWseuwfgIbTJDzenUB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9EDWYOEOQxllXcDQTGjH"/>
+        <rdfs:label>VelocityRescaling</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDf5c3lzhzI9gH1oPS0rrK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDf5c3lzhzI9gH1oPS0rrK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>Models</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDivKRufW0GDwkEhleiF2f9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDivKRufW0GDwkEhleiF2f9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9G5RIVV0fDd7zGqYmqsSyS"/>
+        <rdfs:label>54a7</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDlIDddxARSK3IpxqLzYI42 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDlIDddxARSK3IpxqLzYI42">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB"/>
+        <rdfs:label>CHARMMTopology</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDmnA9FlOr9blHykmoJ63wx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDmnA9FlOr9blHykmoJ63wx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBO4tVY7ZVn6iYVHrpnYDwu"/>
+        <rdfs:label>FreeEnergyPerturbation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDn9EDWYOEOQxllXcDQTGjH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDn9EDWYOEOQxllXcDQTGjH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8jKsdK5tewcSuX1wmekyc1"/>
+        <rdfs:label>FixedTemperature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDrQTV6m9LnMEQ9dybc6qD0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDrQTV6m9LnMEQ9dybc6qD0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCnQb7Ik5Vc5ITy1DsSzDNS"/>
+        <rdfs:label>OPLS-UA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDroSdYUT9glPihEPO9oOCG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDroSdYUT9glPihEPO9oOCG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8odKwk9fGLJCEgTH5DVwRB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDC3vlFCjoXppkx4vhxbIgu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">trajectory analysis utility (written in C++) for carrying out superpositions, extractions of coordinates, calculation of bond/angle/dihedral values, atomic positional fluctuations, correlation functions, analysis of hydrogen bonds, etc.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CPPTRAJ</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDs4XulbGwEGhD8hqvQk0L9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDs4XulbGwEGhD8hqvQk0L9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpzUuzEr3Civ7zgGDy9gFM"/>
+        <rdfs:label>TruncatedOctahedron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDsgDDzJfMO1DdZNXbem9jS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDsgDDzJfMO1DdZNXbem9jS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8a2o1vWZ1CB85K7nyhYnXj"/>
+        <rdfs:label>TrajectoryCompression</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>QualityControlAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDy8j3rtOLnLFAwZRqP8I9Y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDy8j3rtOLnLFAwZRqP8I9Y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a Python script that automates energy analysis of snapshots from a molecular dynamics simulation using ideas generated from continuum solvent models.</dc:description>
+        <rdfs:label>MMPBSA.py</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REkJsCN34A79KdpfL1rj5V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REkJsCN34A79KdpfL1rj5V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RK4rRsjubefowRsyFJTPyl"/>
+        <rdfs:label>RMSfperResidue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RF9ah9Hio8s1wPRqAhHi2R -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RF9ah9Hio8s1wPRqAhHi2R">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:label>MarkDisulfideBonds</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGKc04rZp6OFegc3qUwdl2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGKc04rZp6OFegc3qUwdl2">
+        <rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SystemResolution</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RGkGoVNmyRoksmv0IaPhqK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RGkGoVNmyRoksmv0IaPhqK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>SideChains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJ2gyZToLStfMW6ryLaRWj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJ2gyZToLStfMW6ryLaRWj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD2stYdCK9wZ9FOREWVlCgs"/>
+        <rdfs:label>NativeContactMap</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJx5vk5sukcV4nGcQjU3rU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJx5vk5sukcV4nGcQjU3rU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MDTraj</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RK4rRsjubefowRsyFJTPyl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RK4rRsjubefowRsyFJTPyl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R702Y7zV3hc4Ba4oHAto5O"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDC3vlFCjoXppkx4vhxbIgu"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label>RMSf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKQueRKv54wYvla0k7zuJy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKQueRKv54wYvla0k7zuJy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB2fwAr4OUD0NxkRGcn2A1l"/>
+        <rdfs:label>ForceFieldVersion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKgWqtTMEAwXDUHWLWNxZu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RKgWqtTMEAwXDUHWLWNxZu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Nevncflyu2rxlFcluZa05"/>
+        <rdfs:label>UniversalForceField</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RL3O0EDX8jwPK2lIxHg3Ul -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RL3O0EDX8jwPK2lIxHg3Ul">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDb00Y9mYLgNMiLP3ig4mEu"/>
+        <rdfs:label>HybridComplex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMuHwnRTrtZq35XjpVUY93 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMuHwnRTrtZq35XjpVUY93">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hPrTFfssdaOdLyidHK5eJ"/>
+        <rdfs:label>Protein-Protein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNJetWyrJCkqiwr8FXRbfh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNJetWyrJCkqiwr8FXRbfh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8WaRppVcxzKZZ1HtBpRJ0M"/>
+        <rdfs:label>ProtonateResidues</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNOYkvV6bg6vQPE6kMUP7S -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNOYkvV6bg6vQPE6kMUP7S">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>EnergyAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ROOXXobNXg4VMiqn0ATNFM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ROOXXobNXg4VMiqn0ATNFM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">basic energy minimizer and molecular dynamics program used in Amber.</dc:description>
+        <rdfs:label>sander</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RP2iY6ziSZb1R0q9HKUEju -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RP2iY6ziSZb1R0q9HKUEju">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmZzdAnYJPGFmacuNWPesd"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/Rl3bSZraPleBBZLJiTdlzv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tool based in Python to use Antechamber to generate topologies for chemical compounds and to interface with others python applications like CCPN and ARIA.</dc:description>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Acpype</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPA6UjkCw9BSYPwmTx01fv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPA6UjkCw9BSYPwmTx01fv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCVM8A9Zwo8eOaDRyaB3cdf"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">semiempirical, DFTB, and ab initio quantum chemistry codes, for stand-alone calculations or in QM/MM</dc:description>
+        <rdfs:label>sqm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPQut88isRWcNqfEqSsqPC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPQut88isRWcNqfEqSsqPC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+        <rdfs:label>AddApolarHAtoms</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPkkobfQUrSImmgyAYaJSn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPkkobfQUrSImmgyAYaJSn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBVFM5jUOfT9EOlSBjpXOpo"/>
+        <rdfs:label>AddACE</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>NucleicAcidSpecificAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQ3s4f1YDzpPbIS7Lz1qUU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQ3s4f1YDzpPbIS7Lz1qUU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JD6ZL5TMjIPhIxdEwGyVE"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NeutralClashes</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQMgXWSDRiKiBhAbMKoMtF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQMgXWSDRiKiBhAbMKoMtF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">a (CPU-only) variant of the pmemd program that is designed for calculations using “advanced” force fields, such as AMOEBA and GEM.</dc:description>
+        <rdfs:label>gem.pmemd</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RR5HAr7PbiTae9amJnhVPY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RR5HAr7PbiTae9amJnhVPY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDn9EDWYOEOQxllXcDQTGjH"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NoseHooverThermostat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRl9oNvlrWNffcEMz0kUxE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRl9oNvlrWNffcEMz0kUxE">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>FatSlim</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSWqG3mHjCYUeCFKEIDjYy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSWqG3mHjCYUeCFKEIDjYy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDurOkGGmTH2QKU20mYYkkS"/>
+        <rdfs:label>GyrationRadius</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSiJD1zxzaG6QKEGCHeHmN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSiJD1zxzaG6QKEGCHeHmN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Default category for SystemType</dc:description>
+        <rdfs:label>Other</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBmZzdAnYJPGFmacuNWPesd"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AmberTools</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUvpnm2P2Pf2iVEoKhmdRS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUvpnm2P2Pf2iVEoKhmdRS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">the main computational chemistry engine within GROMACS. It performs Molecular Dynamics simulations, Stochastic Dynamics, Energy Minimization, test particle insertion, (re)calculation of energies or Normal mode analysis.</dc:description>
+        <rdfs:label>mdrun</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV5oQB3dlkbnipKsBtwkoT -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RV5oQB3dlkbnipKsBtwkoT">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDmnA9FlOr9blHykmoJ63wx"/>
+        <rdfs:label>PMXSimulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVKlcgX6PO2AjxKOQ5k24U -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVKlcgX6PO2AjxKOQ5k24U">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RN9GOFp0jgzgZnPS4dpksF"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RbT7AOSvOKQ70bpmpSewcV"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>RemoveIons</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWHnrAlT7AxuYeIA1RcsBJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWHnrAlT7AxuYeIA1RcsBJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8l8e7Fgk4ZcURHWmTDc605"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CMIP</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SimulationSoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RX52rkWhDhhoLbrBEgPTJY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RX52rkWhDhhoLbrBEgPTJY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Wwgl7n7CAjy90s8o3YhII"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MembraneProtein</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RYr5CJtfpN5nxlTfaXfklL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RYr5CJtfpN5nxlTfaXfklL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pskwLzu6K3FfRvvS3fvBz"/>
+        <rdfs:label>ForceFields</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RZNV8JQOYkmluuMQq5gUwt -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RZNV8JQOYkmluuMQq5gUwt">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDEbq7Cxrvd8oaESHRM63GW"/>
+        <rdfs:label>ByOccupancy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaZ5RhpLAkcUqY6SC6pY3H -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RaZ5RhpLAkcUqY6SC6pY3H">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RcMA8hXpKsgwUEjy8kA1JY"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BoundaryCondition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rab7lGgppCANfHlSmFGuox -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rab7lGgppCANfHlSmFGuox">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:label>RenameComponents</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rai1OUG5G0PKqs1JnvJpio -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rai1OUG5G0PKqs1JnvJpio">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9npQ2pHKAtbEZ2ks1JgCUB"/>
+        <rdfs:label>ProteinStructurePrediction</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rb4Yt0yDfpEG7SI4BAqgp6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rb4Yt0yDfpEG7SI4BAqgp6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Constraints</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbT7AOSvOKQ70bpmpSewcV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbT7AOSvOKQ70bpmpSewcV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RhzJAiulWvLfSqHHwmw2k9"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ion</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcMA8hXpKsgwUEjy8kA1JY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcMA8hXpKsgwUEjy8kA1JY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7pskwLzu6K3FfRvvS3fvBz"/>
+        <rdfs:label>Condition</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rcif26zqOEBcJXMHaZWEhp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rcif26zqOEBcJXMHaZWEhp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDb00Y9mYLgNMiLP3ig4mEu"/>
+        <rdfs:label>LigandComplex</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rcp1gcU1NfRZApt6v3txwe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rcp1gcU1NfRZApt6v3txwe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBet15w1WTzAxTe2fyy5Aer"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>CurvesPlus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcrwS7Qndb0BplrsSl2ylY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcrwS7Qndb0BplrsSl2ylY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7ZBExQXuhrNHSRrHtvpHDH"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9Sug86oPdMO81D91gyc7e5"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9crfbboXBYqBINx4uyXgh0"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCzs9tSKj57S1Iq9J7qO3Te"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDroSdYUT9glPihEPO9oOCG"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_amber</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcyquasR2nL7Ky2RQRy04 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcyquasR2nL7Ky2RQRy04">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxX8UEqEyMFueAtiU41XQ8"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RWMEbYIDktuzalOIUWowgm"/>
+        <rdfs:label>SAMSON</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdnUtvZhehNdkypFmQXPBN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdnUtvZhehNdkypFmQXPBN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8bMSyEP7qd5otFwE1ENjzG"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ConcatStructures</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/ReFbatUTOPc1JoS9d1DXAA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/ReFbatUTOPc1JoS9d1DXAA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8gmoqTKakWdMsnAY7GlWhx"/>
+        <rdfs:label>VanderWaals</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rf3KlYjL6ODZAs5oURj0s4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rf3KlYjL6ODZAs5oURj0s4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>NumberOfSteps</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgKxqXOTQop78DXSvFhc6U -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgKxqXOTQop78DXSvFhc6U">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaZ5RhpLAkcUqY6SC6pY3H"/>
+        <rdfs:label>SoftWall</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgMGdhbkuNuOooPCsMhz7E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgMGdhbkuNuOooPCsMhz7E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>Chains</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RgbE7gygq0t6TS6o5ufW1V -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RgbE7gygq0t6TS6o5ufW1V">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R3chwczU8akLZhL5zfZpaQ"/>
+        <rdfs:label>LigandAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rh3nImAAnIS2vcdks50mYM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rh3nImAAnIS2vcdks50mYM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RK4rRsjubefowRsyFJTPyl"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GlobalRMSf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhJZ7VEGT4akC9brNYrVp5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhJZ7VEGT4akC9brNYrVp5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7r53lRV58RNMsY3MKNSh6y"/>
+        <rdfs:label>MembraneCurvature</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhzJAiulWvLfSqHHwmw2k9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhzJAiulWvLfSqHHwmw2k9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+        <rdfs:label>Ligands</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RimrGQwE1zL7ZY8Ufc2gYn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RimrGQwE1zL7ZY8Ufc2gYn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCpzUuzEr3Civ7zgGDy9gFM"/>
+        <rdfs:label>Dodecahedron</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj38BRL0YsCXdxsoKx8lxJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rj38BRL0YsCXdxsoKx8lxJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCJdOjqXi2VoKRANK4z9ufN"/>
+        <rdfs:label>fb15</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rj8vEPIEjjjZFjXFoJzIjg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rj8vEPIEjjjZFjXFoJzIjg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>H5MD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjVnQXLllKHbD2BbNq6XBk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjVnQXLllKHbD2BbNq6XBk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB9rAqP3bcM0pl9vyYt7wTX"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Periodic boundary conditions applied along all axes</dc:description>
+        <rdfs:label>FullPbc</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RjxGIej4QA1BtSnDuFm8KF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RjxGIej4QA1BtSnDuFm8KF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCjNfFENybkew7Z8rpLfIJv"/>
+        <rdfs:label>Lipid</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rl3bSZraPleBBZLJiTdlzv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rl3bSZraPleBBZLJiTdlzv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RqI6TkldwgmQRDtUKmZUhk"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCQmuhlj988OmKhyks4tWaq"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBEtNLWyTkDtjDxQR3rWRqD"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>BuildLigandParameters</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RljJ1IJ2UL8aJw4ziuZpbe -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RljJ1IJ2UL8aJw4ziuZpbe">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">(Free energy workflow) automates free energy calculations of protein-ligand binding using TI, MM/PBSA- type, or LIE calculations.</dc:description>
+        <rdfs:label>FEW</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RlsrJqjzrahzJam9sh2siQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RlsrJqjzrahzJam9sh2siQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrduPMLCaTNrUJMGrcGolO"/>
+        <rdfs:label>BackboneDHFluctuations</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmJBB1KSxh5GlWp25CG41o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmJBB1KSxh5GlWp25CG41o">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGKc04rZp6OFegc3qUwdl2"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">UnitedAtom</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RmOP8ZK29fvlvKYC4WgI9j -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RmOP8ZK29fvlvKYC4WgI9j">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8a2o1vWZ1CB85K7nyhYnXj"/>
+        <rdfs:label>TrajectoryDehydration</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RnbhZtroZSDkj3vvuvH91G -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RnbhZtroZSDkj3vvuvH91G">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>DTR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoYDUC9CGMA67uxjDNpolA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RoYDUC9CGMA67uxjDNpolA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RUXK2zaz3KyYxl4Ie6FSiu"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tool to build, prototype, and validate MM models of metalloproteins and organometallic compounds.</dc:description>
+        <rdfs:label>pyMSMT</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoYbLcTi2y8CHnCNo8d1sQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RoYbLcTi2y8CHnCNo8d1sQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:label>AiiDA</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rq5tP9uuJ8nMXFiqsDPp4n -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rq5tP9uuJ8nMXFiqsDPp4n">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCl2LJXblM8W9ju2f5RqIaA"/>
+        <rdfs:label>TRR</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqI6TkldwgmQRDtUKmZUhk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqI6TkldwgmQRDtUKmZUhk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7Twl9TQjEIgEGCQQxPDLar"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCQmuhlj988OmKhyks4tWaq"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDSliq69RBDsgYDDrlBnPZB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BuildTopologyforSimulation</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqPJQMlYeJvKHMWxecOboh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqPJQMlYeJvKHMWxecOboh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8qOkFCdxie3yObUe18KUHd"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9FTA14cL00qQoC0WtUXLM"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RF9ah9Hio8s1wPRqAhHi2R"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RqI6TkldwgmQRDtUKmZUhk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">reads a .pdb or .gro file, reads some database files, adds hydrogens to the molecules and generates coordinates in GROMACS (GROMOS), or optionally .pdb, format and a topology in GROMACS format. These files can be subsequently be processed to generate a run input file.</dc:description>
+        <rdfs:label>pdb2gmx</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsMHTmX1S9Qo99dAaNJiSU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsMHTmX1S9Qo99dAaNJiSU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCCSZfWV2CnO3NJSdZKrUDg"/>
+        <rdfs:label>Minimization</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsU5VIce0HoiFnHAEdGKeU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsU5VIce0HoiFnHAEdGKeU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7c4dVoBbFH6PX8VJrIzwnW"/>
+        <rdfs:label>NetworkAnalysis</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtJIUTMBKFy0sgcTQhXRfK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtJIUTMBKFy0sgcTQhXRfK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R96RRdAvuFF0IOIa8IYM742"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R1fexJ3F2PwOXNjXhFId9l"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R3G9AShIf78Swr5iI9URbX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7PTy4CqYW6ETreFxC7fL8R"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R80HmJsSMGn0FHivPvqGR0J"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8LBxMOEZrRQDOrD59d6PIb"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8SHOGBBhcyRviTqti1WAKA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9dWCkeukMAs56PETMAPsRU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCRxMd53Y84pPauTnoVl7hA"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCYemhzYUnYI9qkS2JcNEKu"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDEbq7Cxrvd8oaESHRM63GW"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDGCFWjd30n6oRVjTSbUe9A"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R8UdMZ6R5Nk1piYFCuZ0FmM"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RF9ah9Hio8s1wPRqAhHi2R"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RBsH7utmDZt97TTdl99cG8v"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDK6wPuKsVa1KJkM7mHk6cE"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>biobb_structure_checking</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RtNgZzwdqapoEMGKpeQgoE">
+        <rdfs:label>Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rtaty3iLpmuinom9f7cH8Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rtaty3iLpmuinom9f7cH8Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RGkGoVNmyRoksmv0IaPhqK"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">WrongSideChiralConfig</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ru9zAwIOu96lJ3yJg0oiLv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ru9zAwIOu96lJ3yJg0oiLv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCnRGYP16NI8uSV8hUhPay"/>
+        <rdfs:label>MTTK</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvCOHmykSBZTaMkV9xsJ5a -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvCOHmykSBZTaMkV9xsJ5a">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RPlGe46g8VvSstmUf9Y4ha"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BaseBreathing</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RxhhzPmWjaC5GYggVNX1s2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RxhhzPmWjaC5GYggVNX1s2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7jIPBCmao8YZSt0oshIekI"/>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AreaPerLipid</rdfs:label>
+    </owl:Class>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+

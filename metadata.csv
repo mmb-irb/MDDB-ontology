@@ -1,0 +1,131 @@
+Field name,Description,Example,Importance,Automatic mining,Source of data (italics - future),Concerns
+Bureaucracy,,,,,,
+Name,Custom title,"""My simulation""",Mandatory,User input,.tpr,
+Description,Custom long explanation. It is advice to use this space to explian the biological problem to address and the reason to select a specific type of simulation and the composition of the simulated system.,"""My simulation was done like this...""",Recommended,User input,,
+Authors,Name of every author involved,"[""Me"", ""My colleague""]",Optional,User input,,Suggestion to pass this one to recommended
+Groups,Name of every lab involved,"[""My lab"", ""My colleague's lab""]",Optional,User input,,
+Contact,How to reach out the authors,"""Send a mail to my@mail.com""",Optional,User input,,Suggestion to pass this one to recommended
+License,Name of the license,"""Creative Commons 4.0""",Optional,User input,,I think this one is not needed. All data deposited in MDDB should have the same license determined at the beginning. It is CC0 1.0 Universal if I remember correctly.
+License link,Link to a web page where the license is explained,"""https://creativecommons.org/licenses/by/4.0/""",Optional,User input,,"Same here, the link will theoritically be the same for each data unit: https://creativecommons.org/publicdomain/zero/1.0/?ref=chooser-v1"
+Citation,Related paper,"""DOI:blablabla""",Optional,User input,,"In my current implementation this field is just a string, which sometimes is the doi or sometimes is a classic citation. I should implement something more standard."
+Acknowledgements,A mention to the funders,"""Thanks <3""",Optional,User input,,
+Links to external sources,List of links to external sources,"[{""name"": ""Source"", ""url"": ""source.org""}]",Optional,User input,,
+Custom labels/keywords,List of labels to ease organizing simulations in groups,"[""My collection""]",Optional,User input,,
+MD parameters,,,,,,
+Software,Name of the MD engine,"""GROMACS""",Optional,Easy,.h5md,This is an early implementation. Sometimes MD simulations are the product of a pipeline with different softwares with their corresponding versions.
+Version,MD engine version,"""2024.1""",Optional,Easy,.h5md,
+Compiler,,,Optional,Easy,,
+Hardware environment,,,Optional,Difficult,,
+Theoretical level,Full-atom or coarse grain?,"""Full atomistic""",Optional,Easy,,
+Method,Classical MD? Biassed simulation? etc.,"""Classical MD""",Optional,Difficult,,
+Type (needs rebranding),Trajectory or ensemble (is time related?),"""Trajectory""",Optional,Easy,,
+Timestep,Time between calculated steps in the simulation in femtoseconds (fs),2,Optional,Easy,.tpr,
+Framestep,Time between saved steps in the simulation in nanoseconds (ns),0.01,Optional,Easy,".tpr, .xtc, .trr, .h5md","Reading from .xtc/.trr preferred since the user may have trimmed frames from the trajectory, making .tpr values inaccurate"
+Simulation length,Length of simulation in microseconds (us),20,Optional,Easy,,
+Temperature,Simulation temperature in Kelvin (K),310,Optional,Easy,".tpr, .h5md",It could be dynamic. Differentiate target temperature from observed statistics
+Ensemble,NPT? NVT?,"""NPT""",Optional,Easy,".tpr, .h5md",
+Average energy,Average energy of simulated system,-882380 kJ/mol,Optional,Automatic,.h5md,If log file is available then this would be easy
+Box type,Shape of the PBC box,"""Octahedral""",Optional,Easy,".tpr, h5md",What about angles used to define non-cubic boxes?
+Box dimension x,Dimensions of the PBC box,17.01,Optional,Easy,".tpr, h5md",It is usally dynamic
+Box dimension y,,19.02,Optional,Easy,".tpr, h5md",
+Box dimension z,,18.03,Optional,Easy,".tpr, h5md",
+Trajectories included,"Along with Cartesian coordinates, are trajectores for velocities, forces included?","{
+    ""positions"": TRUE,
+    ""velocities"": FALSE,
+    ""forces"": TRUE
+}",Optional,Easy,,Will users be able to upload velocities/forces? Would be helpful for training ML models
+Force fields,Names of force fields used in the simulation,"[""Amber ff14SB"", ""ParmBSC1""]",Optional,Difficult,,"This is an early implementation. We should map which region of the structure is handled by each force field.
+We should reference force fields (e.g. OpenKim?)."
+Long-ranged interactions,Algorithms used and cutoffs applied for these,"{
+    ""PME"": ""12 Angstrom""
+}",Optional,Difficult,.tpr,
+Minimisation,Algorithm used for initial minimsation of system,"""Steepest descent""",Optional,Difficult,,Should info about all equilibration stages also be included. (Provenance)
+Solvent force field,Name of force field used by the solvent,"""TIP3P""",Optional,Difficult,,
+Hydrogen Mass Repartioning (y/n),Was HMR used?,TRUE,Optional,Difficult,.tpr,"Difficult to give a straight answer to from input data, could maybe cross reference atom masses to element?"
+Restraints,What restraints are applied to force constants?,"{
+    ""restraint"": [list of atoms] [force constant]
+}",,,,"Many different types of restraints exists, possibly huge parameter space. Sufficient to have atom numbers?"
+Constraints,What constraints algorithms were used to fix bond lengths? What atoms are they applied to?,"{
+    ""SHAKE"": [list of atoms]
+}",Optional,Difficult,.tpr,Could use atom mask selection syntax
+Thermostat,"What thermostat was used, if any?","""Velocity rescaling""",Optional,Easy,.tpr,What about temperature and pressure coupling parameters used?
+Barostat,"What barostat was used, if any?","""Stochastic cell rescaling""",Optional,Easy,.tpr,Differentiate target pressure from any observed statistics
+Ionic strength,,,Optional,Easy,,
+pH,,7.4,Optional,Easy,,
+Processing and analysis parameters,,,,,,
+Interactions,Which interactions are to be analyzed. Atom selections are in VMD syntax.,"[
+  {
+    ""name"":""My interaction"",
+    ""agent_1"": ""My protein"",
+    ""agent_2"": ""My ligand"",
+    ""selection_1"": ""chain A"",
+    ""selection_2"": ""chain B"",
+    ""type"": ""protein-ligand""
+  },
+  { ... }
+]",Optional,User input,,
+PBC atoms,Which atoms are still under periodic boundary conditions (not imaged). Usually membranes and solvent. Atom selection is in VMD syntax.,"""chain M""",Optional,Difficult,,
+External references,,,,,,
+PDB ids,PDBs used to setup the system,"[""6VW1"", ""6VXX""],",Optional,User input,,"For all IDs: How are entries linked together when you have a multi-component complex? How to account for mutations with respect to reference sequence? How to inlcude use of structure prediction software like alphafold/colabfold rather than PDB? (AF structures do have codes, CF doesn't)"
+UniProt ids,UniProt ids of proteins in the system,"[""P0DTC2"",  ""Q9BYF1""]",Optional,Automatic,,
+PubChem ids,PubChem ids of ligands in the system,"[""5870"", ""5757""]",Optional,Automatic,,
+NCBI ids,"NCBI id of known DNA/RNA sequences in the structure. This references are used when passed only, no BLAST will be run","["" NR_132311.2"", ""NM_181598.4""]",Optional,User input,,
+map IDs to atoms/residues,Mapping source structures to the atoms/residues in the simulation,"Protein XXX represents Uniprot P11111, residue selection 238-430, with mutation S415A, represents the catalytic domain",Optional,Automatic,,"Mapping atoms/residues in simulation to an experimental structure, how it's been modified and what the biological role of the selection is."
+Alphafold ID,Alphafold ID used to setup system/ model missing residues,"[""A0A2I3M965""]",Optional,User input,,Not sure if AF predicted structures are versioned. What if Colabfold is used to predict structure?
+Structural features,,,,,,
+Protein atom count,Atom and residue counts,17,Optional,Automatic,,Will atom masses be included? Removes ambiguity of atom names.
+Protein residue count,,17,Optional,Automatic,,
+Nucleic acid atom count,,17,Optional,Automatic,,
+Nucleic acid residue count,,17,Optional,Automatic,,
+Lipid atom count,,17,Optional,Automatic,,
+Lipid residue count,,17,Optional,Automatic,,
+Ion atom count,,17,Optional,Automatic,,
+Solvent atom count,,17,Optional,Automatic,,Could we extract the solvent layer thickness?
+Other atom count,,17,Optional,Automatic,,
+Ionized residues,Presence of residues with a non-canonical protonation state (yes/no),TRUE,Optional,Easy,,
+Ionic concentration,Concentration of counter ions in mM,0.17,Optional,Difficult,,
+Presence of antibodies,Are there antobodies/nanobides in the system?,TRUE,Optional,Difficult,,"I think here it is more pratical to just have one metadata called 
+MolTypes which is a list of molecular types in the MD system. 
+We can define a list with a 
+high and unique vocabulary like (based on our future ontology or
+resources like PFAM, INTERPRO,SCOP or CATH):
+Enzyme, Structural Proteins, Transport Proteins, 
+Regulatory Proteins, Signaling Proteins,
+Motor Proteins, Immune Proteins, Storage Proteins.
+And maybe create a new field SubMolTypes with keywords like 'IMMUNOGLOBULIN'.
+This can probably be extracted from mmcif file or PDB file. 
+Can be made with ANARCII like SabDab does."
+Presence of nanobodies,,FALSE,Optional,Difficult,,Can probably be made with ANARCII 
+Protein sequences,Protein chain aminoacids sequences,"""DWGYDDKNGXXX""",Optional,Automatic,,
+Nucleic sequences,Nucleic chain nucleotide sequences,"""GTACTCTCAATTGAGAGTAC""",Optional,Automatic,,
+Multimerism,Presence of multimerism,"[
+  ""Monomer"",
+  ""Dimer""
+],",Optional,Difficult,,
+Post translational modifications,Presence of protein post translational modifications,"[
+  ""Acetylation"",
+  ""Glycosilation""
+],",Optional,Automatic,,
+Nucleic modifications,Flags for every different type of DNA/RNA modifications,"[""5-mC"", ""5-hmC"", ""5-fC"", ""5-caC"", ""6-mA""]",Optional,Easy,,
+Domains,"For referenced and thus mapped protein chains, set UniProt domains included total or partially in the structure","[
+  ""Disordered"",
+  ""Receptor-binding domain (RBD)"",
+]",Optional,Automatic,,
+Membrane,Is there a bilipidic membrane in the sturcutre? (yes/no),TRUE,Optional,Automatic,,
+Custom representation parameters,,,,,,
+Chain names,Show custom chain names next to the chain letter in the web client,"{
+   ""A"": ""My protein"",
+   ""B"": ""My ligand""
+},",Optional,User input,,
+Ligand names,Show custom ligand names instead of the reference name in the web server,"{ ""1986"": ""Acetazolamide"" }",Optional,User input,,
+Default viewer orientation,Default camera orientation when representing the structure in the molecular viewer,"[1.2, 3.4, ...]",Optional,User input,,
+Additional preset representations,Preconfigured sets of representations for the molecular viewer,"[
+  {
+    ""name"": ""My cutsom display"",
+    ""representations"": [ { ""type"": ""cartoon"" } ]
+  }
+]",Optional,User input,,
+Index File and its description,The equivalent of the ndx file of Gromacs,,Recommended,User input,,added 19/03/2025
+Others,,,,,,
+Computational resources,The hardware used to perform the simulation,,Optional,Automatic,,"There's some info in log file about hardware used, is this also in the tpr file?"
+Wall time,Time taken to perform simulation in seconds (s),607.161,Optional,Automatic,,"This info is in the log file, is this also in the tpr file?"
